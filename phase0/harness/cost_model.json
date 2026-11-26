@@ -1,0 +1,303 @@
+{
+  "note": "min_sec \u7528\u4e8e\u6298\u7b97\uff08\u6297\u566a\u58f0\uff09\uff1bmfe-\u7b49\u6548 = n_mfe + ratio_pf*n_pf + ratio_subopt*n_subopt",
+  "per_length": {
+    "100": {
+      "eval": {
+        "median_sec": 7.3e-05,
+        "min_sec": 7e-05
+      },
+      "mfe": {
+        "median_sec": 0.007782,
+        "min_sec": 0.007653
+      },
+      "ned_after_pf": {
+        "median_sec": 1.4e-05,
+        "min_sec": 1.3e-05
+      },
+      "pf": {
+        "median_sec": 0.013518,
+        "min_sec": 0.013342
+      },
+      "pr_after_pf": {
+        "median_sec": 4e-06,
+        "min_sec": 4e-06
+      },
+      "ratio_to_mfe": {
+        "eval": 0.009,
+        "mfe": 1.0,
+        "ned_after_pf": 0.002,
+        "pf": 1.743,
+        "pr_after_pf": 0.0,
+        "sample_after_pf": 0.0,
+        "subopt0": 1.032
+      },
+      "sample_after_pf": {
+        "median_sec": 2e-06,
+        "min_sec": 1e-06
+      },
+      "subopt0": {
+        "median_sec": 0.007951,
+        "min_sec": 0.007898
+      }
+    },
+    "150": {
+      "eval": {
+        "median_sec": 0.000134,
+        "min_sec": 0.000128
+      },
+      "mfe": {
+        "median_sec": 0.022514,
+        "min_sec": 0.022091
+      },
+      "ned_after_pf": {
+        "median_sec": 2.5e-05,
+        "min_sec": 2.5e-05
+      },
+      "pf": {
+        "median_sec": 0.038749,
+        "min_sec": 0.038428
+      },
+      "pr_after_pf": {
+        "median_sec": 5e-06,
+        "min_sec": 5e-06
+      },
+      "ratio_to_mfe": {
+        "eval": 0.006,
+        "mfe": 1.0,
+        "ned_after_pf": 0.001,
+        "pf": 1.74,
+        "pr_after_pf": 0.0,
+        "sample_after_pf": 0.0,
+        "subopt0": 1.026
+      },
+      "sample_after_pf": {
+        "median_sec": 1e-06,
+        "min_sec": 1e-06
+      },
+      "subopt0": {
+        "median_sec": 0.022725,
+        "min_sec": 0.022658
+      }
+    },
+    "200": {
+      "eval": {
+        "median_sec": 0.0002,
+        "min_sec": 0.000199
+      },
+      "mfe": {
+        "median_sec": 0.039787,
+        "min_sec": 0.036634
+      },
+      "ned_after_pf": {
+        "median_sec": 3.8e-05,
+        "min_sec": 3.7e-05
+      },
+      "pf": {
+        "median_sec": 0.07499,
+        "min_sec": 0.073102
+      },
+      "pr_after_pf": {
+        "median_sec": 4e-06,
+        "min_sec": 4e-06
+      },
+      "ratio_to_mfe": {
+        "eval": 0.005,
+        "mfe": 1.0,
+        "ned_after_pf": 0.001,
+        "pf": 1.995,
+        "pr_after_pf": 0.0,
+        "sample_after_pf": 0.0,
+        "subopt0": 1.046
+      },
+      "sample_after_pf": {
+        "median_sec": 1e-06,
+        "min_sec": 1e-06
+      },
+      "subopt0": {
+        "median_sec": 0.039764,
+        "min_sec": 0.038327
+      }
+    },
+    "30": {
+      "eval": {
+        "median_sec": 2.6e-05,
+        "min_sec": 2.4e-05
+      },
+      "mfe": {
+        "median_sec": 0.000352,
+        "min_sec": 0.00034
+      },
+      "ned_after_pf": {
+        "median_sec": 5e-06,
+        "min_sec": 4e-06
+      },
+      "pf": {
+        "median_sec": 0.000557,
+        "min_sec": 0.000543
+      },
+      "pr_after_pf": {
+        "median_sec": 3e-06,
+        "min_sec": 3e-06
+      },
+      "ratio_to_mfe": {
+        "eval": 0.07,
+        "mfe": 1.0,
+        "ned_after_pf": 0.013,
+        "pf": 1.597,
+        "pr_after_pf": 0.008,
+        "sample_after_pf": 0.004,
+        "subopt0": 1.059
+      },
+      "sample_after_pf": {
+        "median_sec": 2e-06,
+        "min_sec": 1e-06
+      },
+      "subopt0": {
+        "median_sec": 0.000367,
+        "min_sec": 0.00036
+      }
+    },
+    "300": {
+      "eval": {
+        "median_sec": 0.000463,
+        "min_sec": 0.000458
+      },
+      "mfe": {
+        "median_sec": 0.104409,
+        "min_sec": 0.101907
+      },
+      "ned_after_pf": {
+        "median_sec": 9.3e-05,
+        "min_sec": 9.2e-05
+      },
+      "pf": {
+        "median_sec": 0.222267,
+        "min_sec": 0.214515
+      },
+      "pr_after_pf": {
+        "median_sec": 8e-06,
+        "min_sec": 7e-06
+      },
+      "ratio_to_mfe": {
+        "eval": 0.004,
+        "mfe": 1.0,
+        "ned_after_pf": 0.001,
+        "pf": 2.105,
+        "pr_after_pf": 0.0,
+        "sample_after_pf": 0.0,
+        "subopt0": 1.054
+      },
+      "sample_after_pf": {
+        "median_sec": 1e-06,
+        "min_sec": 1e-06
+      },
+      "subopt0": {
+        "median_sec": 0.109528,
+        "min_sec": 0.10744
+      }
+    },
+    "400": {
+      "eval": {
+        "median_sec": 0.000746,
+        "min_sec": 0.000718
+      },
+      "mfe": {
+        "median_sec": 0.1894,
+        "min_sec": 0.18603
+      },
+      "ned_after_pf": {
+        "median_sec": 0.000153,
+        "min_sec": 0.000152
+      },
+      "pf": {
+        "median_sec": 0.41837,
+        "min_sec": 0.393544
+      },
+      "pr_after_pf": {
+        "median_sec": 9e-06,
+        "min_sec": 8e-06
+      },
+      "ratio_to_mfe": {
+        "eval": 0.004,
+        "mfe": 1.0,
+        "ned_after_pf": 0.001,
+        "pf": 2.115,
+        "pr_after_pf": 0.0,
+        "sample_after_pf": 0.0,
+        "subopt0": 0.954
+      },
+      "sample_after_pf": {
+        "median_sec": 1e-06,
+        "min_sec": 1e-06
+      },
+      "subopt0": {
+        "median_sec": 0.179521,
+        "min_sec": 0.177383
+      }
+    },
+    "60": {
+      "eval": {
+        "median_sec": 3.9e-05,
+        "min_sec": 3.7e-05
+      },
+      "mfe": {
+        "median_sec": 0.002261,
+        "min_sec": 0.002196
+      },
+      "ned_after_pf": {
+        "median_sec": 7e-06,
+        "min_sec": 6e-06
+      },
+      "pf": {
+        "median_sec": 0.003524,
+        "min_sec": 0.00351
+      },
+      "pr_after_pf": {
+        "median_sec": 4e-06,
+        "min_sec": 3e-06
+      },
+      "ratio_to_mfe": {
+        "eval": 0.017,
+        "mfe": 1.0,
+        "ned_after_pf": 0.003,
+        "pf": 1.598,
+        "pr_after_pf": 0.002,
+        "sample_after_pf": 0.001,
+        "subopt0": 1.005
+      },
+      "sample_after_pf": {
+        "median_sec": 2e-06,
+        "min_sec": 2e-06
+      },
+      "subopt0": {
+        "median_sec": 0.002263,
+        "min_sec": 0.002207
+      }
+    }
+  },
+  "provenance": {
+    "conda_env": "rnad_eval",
+    "dangles": 2,
+    "energy_params": "Turner2004 (ViennaRNA 2.x default, \u663e\u5f0f params_load_RNA_Turner2004)",
+    "harness_git": null,
+    "host": "c0705a-s25.ufhpc",
+    "kT_kcal_per_mol": 0.6163207755023825,
+    "noLonelyPairs": 0,
+    "pinned": true,
+    "platform": "Linux-5.14.0-687.48.1.el9_8.x86_64-x86_64-with-glibc2.34",
+    "python": "3.11.18",
+    "reps": 5,
+    "rna_version": "2.8.0",
+    "seed": 0,
+    "slurm_job": "52676656",
+    "temperature_C": 37.0
+  },
+  "ratio_summary": {
+    "eval": 0.006,
+    "ned_after_pf": 0.001,
+    "pf": 1.743,
+    "pr_after_pf": 0.0,
+    "sample_after_pf": 0.0,
+    "subopt0": 1.032
+  }
+}

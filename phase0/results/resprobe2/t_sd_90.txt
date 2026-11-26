@@ -1,0 +1,13 @@
+seed: 1, n: 400, step: 0, time: 241.617
+seed: 1, n: 400, step: 1, time: 213.831
+seed: 1, n: 400, step: 2, time: 216.341
+seed: 1, n: 400, step: 3, time: 218.214
+seed: 1, n: 400, step: 4, time: 224.233
+seed: 1, n: 400, step: 5, time: 228.005
+seed: 1, n: 400, step: 6, time: 229.861
+seed: 1, n: 400, step: 7, time: 224.631
+seed: 1, n: 400, step: 8, time: 225.934
+seed: 1, n: 400, step: 9, time: 229.282
+seed: 1, n: 400, step: 10, time: 232.579
+seed: 1, n: 400, step: 11, time: 231.294
+seed: 1, n: 400, step: 12, time: 231.866

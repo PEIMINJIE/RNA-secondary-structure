@@ -1,0 +1,9 @@
+method,variant,gen_engine,benchmark,n_trials,n_puzzles_attempted,solved_mfe_mean,solved_mfe_std,solved_umfe_mean,solved_umfe_std,solved_mfe_union,solved_umfe_union,disagree_with_reported
+desirna_published,v1_1h,desirna_repo,v1,1,5,1.0,0.0,1.0,0.0,1,1,0
+desirna_published,v1_1min,desirna_repo,v1,1,90,45.0,0.0,44.0,0.0,45,44,0
+desirna_published,v1_24h,desirna_repo,v1,1,5,0.0,0.0,0.0,0.0,0,0,0
+desirna_published,v1_all,desirna_repo,v1,1,100,46.0,0.0,45.0,0.0,46,45,0
+desirna_published,v2_1h,desirna_repo,v2,1,10,10.0,0.0,8.0,0.0,10,8,0
+desirna_published,v2_1min,desirna_repo,v2,1,85,85.0,0.0,80.0,0.0,85,80,0
+desirna_published,v2_24h,desirna_repo,v2,1,2,2.0,0.0,1.0,0.0,2,1,0
+desirna_published,v2_all,desirna_repo,v2,1,97,97.0,0.0,89.0,0.0,97,89,0

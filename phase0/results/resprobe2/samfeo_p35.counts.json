@@ -1,0 +1,42 @@
+{
+  "argv": [
+    "--online",
+    "--step",
+    "100"
+  ],
+  "by_length": {
+    "mfe:L123": 1,
+    "pf:L123": 110,
+    "pr:L123": 110
+  },
+  "counts": {
+    "mfe": 1,
+    "pf": 110,
+    "pr": 110
+  },
+  "env": {
+    "conda_env": "rnad_samfeo",
+    "dangles": 2,
+    "energy_params": "Turner2004 (ViennaRNA 2.x default, \u663e\u5f0f params_load_RNA_Turner2004)",
+    "harness_git": null,
+    "host": "c0705a-s7.ufhpc",
+    "kT_kcal_per_mol": 0.6163207755023825,
+    "noLonelyPairs": 0,
+    "pinned": false,
+    "platform": "Linux-5.14.0-687.48.1.el9_8.x86_64-x86_64-with-glibc2.34",
+    "python": "3.11.18",
+    "rna_version": "2.6.4",
+    "slurm_job": "52682414",
+    "temperature_C": 37.0
+  },
+  "pid": 3988922,
+  "rna_version": "2.6.4",
+  "tag": "samfeo_p35",
+  "target": "/path/to/RNA/third_party/samfeo/main.py",
+  "timestamp": "2026-11-24T21:17:49",
+  "wall_sec": {
+    "mfe": 0.002947,
+    "pf": 1.035859,
+    "pr": 0.000844
+  }
+}

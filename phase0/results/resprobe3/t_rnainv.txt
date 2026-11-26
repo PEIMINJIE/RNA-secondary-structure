@@ -1,0 +1,23 @@
+	Command being timed: "python -I harness/run_rnainverse.py --bench data/eterna100/eterna100_v2.jsonl --out /path/to/RNA/results/resprobe3/rnainverse.jsonl --mode pf --budget 20000 --seed 0 --ids 1,8,23,87,69 --puzzle-timeout 120"
+	User time (seconds): 239.60
+	System time (seconds): 0.13
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:00.97
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 29696
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 892
+	Minor (reclaiming a frame) page faults: 20962
+	Voluntary context switches: 2013
+	Involuntary context switches: 604
+	Swaps: 0
+	File system inputs: 103808
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

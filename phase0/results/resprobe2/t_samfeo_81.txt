@@ -1,0 +1,24 @@
+[run_counted] counts={'pf': 110, 'pr': 110, 'mfe': 1} -> /path/to/RNA/results/resprobe2/samfeo_p81.counts.json
+	Command being timed: "python -I harness/run_counted.py --counts /path/to/RNA/results/resprobe2/samfeo_p81.counts.json --cwd /path/to/RNA/results/resprobe2 --tag samfeo_p81 -- /path/to/RNA/third_party/samfeo/main.py --online --step 100"
+	User time (seconds): 9.33
+	System time (seconds): 0.17
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 73728
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19053
+	Voluntary context switches: 2216
+	Involuntary context switches: 176
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

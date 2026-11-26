@@ -1,0 +1,17 @@
+{
+  "conda_env": "rnad_eval",
+  "dangles": 2,
+  "energy_params": "Turner2004 (ViennaRNA 2.x default, \u663e\u5f0f params_load_RNA_Turner2004)",
+  "harness_git": null,
+  "host": "c0704a-s6.ufhpc",
+  "input": "/path/to/RNA/results/solvedB/samfeo_v2_B100000/seed3_chunk0.jsonl",
+  "kT_kcal_per_mol": 0.6163207755023825,
+  "n": 20,
+  "noLonelyPairs": 0,
+  "pinned": true,
+  "platform": "Linux-5.14.0-687.48.1.el9_8.x86_64-x86_64-with-glibc2.34",
+  "python": "3.11.18",
+  "rna_version": "2.8.0",
+  "slurm_job": "52687297",
+  "temperature_C": 37.0
+}

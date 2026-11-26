@@ -1,0 +1,2 @@
+method,variant,gen_engine,benchmark,n_trials,n_puzzles_attempted,solved_mfe_mean,solved_mfe_std,solved_umfe_mean,solved_umfe_std,solved_mfe_union,solved_umfe_union,disagree_with_reported
+samfeo,B=100000,turner2004,v2,1,100,43.0,0.0,41.0,0.0,43,41,0
