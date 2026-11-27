@@ -1,0 +1,311 @@
+{
+  "bench": "taneda29",
+  "n_puzzles": 29,
+  "n_candidates_min_per_puzzle": 16000,
+  "criterion": "generation-side ViennaRNA MFE bp-distance == 0",
+  "curve": [
+    {
+      "N": 1,
+      "solved": 20,
+      "of": 29,
+      "folds_total": 29,
+      "folds_per_puzzle_mean": 1.0
+    },
+    {
+      "N": 2,
+      "solved": 23,
+      "of": 29,
+      "folds_total": 38,
+      "folds_per_puzzle_mean": 1.3103448275862069
+    },
+    {
+      "N": 5,
+      "solved": 23,
+      "of": 29,
+      "folds_total": 56,
+      "folds_per_puzzle_mean": 1.9310344827586208
+    },
+    {
+      "N": 10,
+      "solved": 23,
+      "of": 29,
+      "folds_total": 86,
+      "folds_per_puzzle_mean": 2.9655172413793105
+    },
+    {
+      "N": 20,
+      "solved": 23,
+      "of": 29,
+      "folds_total": 146,
+      "folds_per_puzzle_mean": 5.0344827586206895
+    },
+    {
+      "N": 50,
+      "solved": 23,
+      "of": 29,
+      "folds_total": 326,
+      "folds_per_puzzle_mean": 11.241379310344827
+    },
+    {
+      "N": 100,
+      "solved": 24,
+      "of": 29,
+      "folds_total": 590,
+      "folds_per_puzzle_mean": 20.344827586206897
+    },
+    {
+      "N": 200,
+      "solved": 24,
+      "of": 29,
+      "folds_total": 1090,
+      "folds_per_puzzle_mean": 37.58620689655172
+    },
+    {
+      "N": 500,
+      "solved": 24,
+      "of": 29,
+      "folds_total": 2590,
+      "folds_per_puzzle_mean": 89.3103448275862
+    },
+    {
+      "N": 1000,
+      "solved": 24,
+      "of": 29,
+      "folds_total": 5090,
+      "folds_per_puzzle_mean": 175.51724137931035
+    },
+    {
+      "N": 2000,
+      "solved": 24,
+      "of": 29,
+      "folds_total": 10090,
+      "folds_per_puzzle_mean": 347.9310344827586
+    },
+    {
+      "N": 5000,
+      "solved": 24,
+      "of": 29,
+      "folds_total": 25090,
+      "folds_per_puzzle_mean": 865.1724137931035
+    },
+    {
+      "N": 10000,
+      "solved": 24,
+      "of": 29,
+      "folds_total": 50090,
+      "folds_per_puzzle_mean": 1727.2413793103449
+    },
+    {
+      "N": 16000,
+      "solved": 24,
+      "of": 29,
+      "folds_total": 80090,
+      "folds_per_puzzle_mean": 2761.7241379310344
+    }
+  ],
+  "per_puzzle": {
+    "1": {
+      "first_hit": 1,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 117,
+      "name": "taneda29_1"
+    },
+    "2": {
+      "first_hit": 1,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 151,
+      "name": "taneda29_2"
+    },
+    "3": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 161,
+      "name": "taneda29_3"
+    },
+    "4": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 193,
+      "name": "taneda29_4"
+    },
+    "5": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 74,
+      "name": "taneda29_5"
+    },
+    "6": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 89,
+      "name": "taneda29_6"
+    },
+    "7": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 154,
+      "name": "taneda29_7"
+    },
+    "8": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 54,
+      "name": "taneda29_8"
+    },
+    "9": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 348,
+      "name": "taneda29_9"
+    },
+    "10": {
+      "first_hit": null,
+      "best_bpd": 2,
+      "n_candidates": 16000,
+      "length": 357,
+      "name": "taneda29_10"
+    },
+    "11": {
+      "first_hit": null,
+      "best_bpd": 3,
+      "n_candidates": 16000,
+      "length": 382,
+      "name": "taneda29_11"
+    },
+    "12": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 215,
+      "name": "taneda29_12"
+    },
+    "13": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 185,
+      "name": "taneda29_13"
+    },
+    "14": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 87,
+      "name": "taneda29_14"
+    },
+    "15": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 140,
+      "name": "taneda29_15"
+    },
+    "16": {
+      "first_hit": null,
+      "best_bpd": 1,
+      "n_candidates": 16000,
+      "length": 129,
+      "name": "taneda29_16"
+    },
+    "17": {
+      "first_hit": 1,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 301,
+      "name": "taneda29_17"
+    },
+    "18": {
+      "first_hit": 63,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 360,
+      "name": "taneda29_18"
+    },
+    "19": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 83,
+      "name": "taneda29_19"
+    },
+    "20": {
+      "first_hit": null,
+      "best_bpd": 1,
+      "n_candidates": 16000,
+      "length": 119,
+      "name": "taneda29_20"
+    },
+    "21": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 118,
+      "name": "taneda29_21"
+    },
+    "22": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 148,
+      "name": "taneda29_22"
+    },
+    "23": {
+      "first_hit": null,
+      "best_bpd": 1,
+      "n_candidates": 16000,
+      "length": 451,
+      "name": "taneda29_23"
+    },
+    "24": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 210,
+      "name": "taneda29_24"
+    },
+    "25": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 102,
+      "name": "taneda29_25"
+    },
+    "26": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 79,
+      "name": "taneda29_26"
+    },
+    "27": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 344,
+      "name": "taneda29_27"
+    },
+    "28": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 73,
+      "name": "taneda29_28"
+    },
+    "29": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 16000,
+      "length": 340,
+      "name": "taneda29_29"
+    }
+  }
+}

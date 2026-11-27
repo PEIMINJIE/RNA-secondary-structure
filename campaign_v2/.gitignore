@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+# 本地跑起来之后产生的大件，不要回传
+third_party/
+build/
+models/
+logs/
+results/campaignV2/*/_work_*/
+results/campaignV2/lm/*_decode.jsonl

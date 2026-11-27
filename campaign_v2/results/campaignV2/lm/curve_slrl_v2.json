@@ -1,0 +1,780 @@
+{
+  "bench": "v2",
+  "n_puzzles": 100,
+  "n_candidates_min_per_puzzle": 1000,
+  "criterion": "generation-side ViennaRNA MFE bp-distance == 0",
+  "curve": [
+    {
+      "N": 1,
+      "solved": 50,
+      "of": 100,
+      "folds_total": 100,
+      "folds_per_puzzle_mean": 1.0
+    },
+    {
+      "N": 2,
+      "solved": 57,
+      "of": 100,
+      "folds_total": 150,
+      "folds_per_puzzle_mean": 1.5
+    },
+    {
+      "N": 5,
+      "solved": 61,
+      "of": 100,
+      "folds_total": 274,
+      "folds_per_puzzle_mean": 2.74
+    },
+    {
+      "N": 10,
+      "solved": 63,
+      "of": 100,
+      "folds_total": 463,
+      "folds_per_puzzle_mean": 4.63
+    },
+    {
+      "N": 20,
+      "solved": 63,
+      "of": 100,
+      "folds_total": 833,
+      "folds_per_puzzle_mean": 8.33
+    },
+    {
+      "N": 50,
+      "solved": 66,
+      "of": 100,
+      "folds_total": 1874,
+      "folds_per_puzzle_mean": 18.74
+    },
+    {
+      "N": 100,
+      "solved": 69,
+      "of": 100,
+      "folds_total": 3497,
+      "folds_per_puzzle_mean": 34.97
+    },
+    {
+      "N": 200,
+      "solved": 71,
+      "of": 100,
+      "folds_total": 6461,
+      "folds_per_puzzle_mean": 64.61
+    },
+    {
+      "N": 500,
+      "solved": 75,
+      "of": 100,
+      "folds_total": 14622,
+      "folds_per_puzzle_mean": 146.22
+    },
+    {
+      "N": 1000,
+      "solved": 78,
+      "of": 100,
+      "folds_total": 26042,
+      "folds_per_puzzle_mean": 260.42
+    }
+  ],
+  "per_puzzle": {
+    "1": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 16,
+      "name": "Simple Hairpin"
+    },
+    "2": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 116,
+      "name": "Arabidopsis Thaliana 6 RNA - Difficulty Level 0"
+    },
+    "3": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 36,
+      "name": "Prion Pseudoknot - Difficulty Level 0"
+    },
+    "4": {
+      "first_hit": 1,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 192,
+      "name": "Human Integrated Adenovirus - Difficulty Level 0"
+    },
+    "5": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 101,
+      "name": "The Gammaretrovirus Signal - Difficulty Level 0"
+    },
+    "6": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 379,
+      "name": "Saccharomyces Cerevisiae - Difficulty Level 0"
+    },
+    "7": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 284,
+      "name": "Fractal 2"
+    },
+    "8": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 12,
+      "name": "G-C Placement"
+    },
+    "9": {
+      "first_hit": 7,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 258,
+      "name": "The Sun"
+    },
+    "10": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 45,
+      "name": "Frog Foot"
+    },
+    "11": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 36,
+      "name": "InfoRNA test 16"
+    },
+    "12": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 213,
+      "name": "Mat - Martian 2"
+    },
+    "13": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 67,
+      "name": "square"
+    },
+    "14": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 98,
+      "name": "Six legd turtle 2"
+    },
+    "15": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 30,
+      "name": "Small and Easy 6"
+    },
+    "16": {
+      "first_hit": 5,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 105,
+      "name": "Fractile"
+    },
+    "17": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 105,
+      "name": "Six legd Turtle"
+    },
+    "18": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 67,
+      "name": "snoRNA SNORD64"
+    },
+    "19": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 104,
+      "name": "Chalk Outline"
+    },
+    "20": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 42,
+      "name": "InfoRNA bulge test 9"
+    },
+    "21": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 105,
+      "name": "Tilted Russian Cross"
+    },
+    "22": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 400,
+      "name": "This is ACTUALLY Small And Easy 6"
+    },
+    "23": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 17,
+      "name": "Shortie 4"
+    },
+    "24": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 104,
+      "name": "Shape Test"
+    },
+    "25": {
+      "first_hit": 1,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 62,
+      "name": "The Minitsry"
+    },
+    "26": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 26,
+      "name": "stickshift"
+    },
+    "27": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 57,
+      "name": "U"
+    },
+    "28": {
+      "first_hit": 2,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 378,
+      "name": "Still Life (Sunflower In A Vase)"
+    },
+    "29": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 105,
+      "name": "Quasispecies 2-2 Loop Challenge"
+    },
+    "30": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 31,
+      "name": "Corner bulge training"
+    },
+    "31": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 102,
+      "name": "Spiral"
+    },
+    "32": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 122,
+      "name": "InfoRNA bulge test"
+    },
+    "33": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 45,
+      "name": "Worm 1"
+    },
+    "34": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 96,
+      "name": "just down to 1 bulge"
+    },
+    "35": {
+      "first_hit": 70,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 123,
+      "name": "Iron Cross"
+    },
+    "36": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 151,
+      "name": "loops and stems"
+    },
+    "37": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 103,
+      "name": "Water Strider"
+    },
+    "38": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 316,
+      "name": "The Turtle(s) Move(s)"
+    },
+    "39": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 174,
+      "name": "Adenine"
+    },
+    "40": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 38,
+      "name": "Tripod5"
+    },
+    "41": {
+      "first_hit": 3,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 35,
+      "name": "Shortie 6"
+    },
+    "42": {
+      "first_hit": 3,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 116,
+      "name": "Runner"
+    },
+    "43": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 85,
+      "name": "Recoil"
+    },
+    "44": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 63,
+      "name": "[CloudBeta] An Arm and a Leg 1.0"
+    },
+    "45": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 63,
+      "name": "[CloudBeta] 5 Adjacent Stack Multi-Branch Loop"
+    },
+    "46": {
+      "first_hit": 1,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 97,
+      "name": "Triple Y"
+    },
+    "47": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 50,
+      "name": "Misfolded Aptamer"
+    },
+    "48": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 102,
+      "name": "Flower power"
+    },
+    "49": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 101,
+      "name": "Kudzu"
+    },
+    "50": {
+      "first_hit": 25,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 108,
+      "name": "1,2,3and4bulges"
+    },
+    "51": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 337,
+      "name": "medallion"
+    },
+    "52": {
+      "first_hit": 583,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 81,
+      "name": "[RNA] Repetitious Sequences 8/10"
+    },
+    "53": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 400,
+      "name": "Documenting repetitious behavior"
+    },
+    "54": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 92,
+      "name": "7 multiloop"
+    },
+    "55": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 102,
+      "name": "Kyurem 7"
+    },
+    "56": {
+      "first_hit": 1,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 387,
+      "name": "JF1"
+    },
+    "57": {
+      "first_hit": null,
+      "best_bpd": 4,
+      "n_candidates": 1000,
+      "length": 44,
+      "name": "multilooping fun"
+    },
+    "58": {
+      "first_hit": 3,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 111,
+      "name": "Multiloop..."
+    },
+    "59": {
+      "first_hit": 492,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 68,
+      "name": "hard Y"
+    },
+    "60": {
+      "first_hit": null,
+      "best_bpd": 1,
+      "n_candidates": 1000,
+      "length": 106,
+      "name": "Mat - Elements & Sections"
+    },
+    "61": {
+      "first_hit": 119,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 69,
+      "name": "Chicken feet"
+    },
+    "62": {
+      "first_hit": null,
+      "best_bpd": 2,
+      "n_candidates": 1000,
+      "length": 53,
+      "name": "Bug 18"
+    },
+    "63": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 400,
+      "name": "Fractal star x5"
+    },
+    "64": {
+      "first_hit": null,
+      "best_bpd": 2,
+      "n_candidates": 1000,
+      "length": 110,
+      "name": "Crop circle 2"
+    },
+    "65": {
+      "first_hit": null,
+      "best_bpd": 1,
+      "n_candidates": 1000,
+      "length": 40,
+      "name": "Branching Loop"
+    },
+    "66": {
+      "first_hit": 795,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 36,
+      "name": "Bug 38"
+    },
+    "67": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 55,
+      "name": "Simple Single Bond"
+    },
+    "68": {
+      "first_hit": null,
+      "best_bpd": 10,
+      "n_candidates": 1000,
+      "length": 282,
+      "name": "Taraxacum officinale"
+    },
+    "69": {
+      "first_hit": 1,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 200,
+      "name": "Headless Bug on Windshield"
+    },
+    "70": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 184,
+      "name": "Pokeball"
+    },
+    "71": {
+      "first_hit": null,
+      "best_bpd": 1,
+      "n_candidates": 1000,
+      "length": 88,
+      "name": "Variation of a crop circle"
+    },
+    "72": {
+      "first_hit": 374,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 73,
+      "name": "Loop next to a Multiloop"
+    },
+    "73": {
+      "first_hit": null,
+      "best_bpd": 8,
+      "n_candidates": 1000,
+      "length": 370,
+      "name": "Snowflake 4"
+    },
+    "74": {
+      "first_hit": 333,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 380,
+      "name": "Mat - Cuboid"
+    },
+    "75": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 75,
+      "name": "Misfolded Aptamer 6"
+    },
+    "76": {
+      "first_hit": null,
+      "best_bpd": 33,
+      "n_candidates": 1000,
+      "length": 393,
+      "name": "Snowflake 3"
+    },
+    "77": {
+      "first_hit": 539,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 105,
+      "name": "Hard Y and a bit more"
+    },
+    "78": {
+      "first_hit": null,
+      "best_bpd": 39,
+      "n_candidates": 1000,
+      "length": 286,
+      "name": "Mat - Lot 2-2 B"
+    },
+    "79": {
+      "first_hit": null,
+      "best_bpd": 2,
+      "n_candidates": 1000,
+      "length": 101,
+      "name": "Shapes and Energy"
+    },
+    "80": {
+      "first_hit": 1,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 396,
+      "name": "Spiral of 5's"
+    },
+    "81": {
+      "first_hit": 258,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 214,
+      "name": "Campfire"
+    },
+    "82": {
+      "first_hit": 68,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 214,
+      "name": "Anemone"
+    },
+    "83": {
+      "first_hit": 143,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 119,
+      "name": "Fractal 3"
+    },
+    "84": {
+      "first_hit": 1,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 104,
+      "name": "Kyurem 5"
+    },
+    "85": {
+      "first_hit": null,
+      "best_bpd": 8,
+      "n_candidates": 1000,
+      "length": 389,
+      "name": "Snowflake Necklace ( or v2.0 )"
+    },
+    "86": {
+      "first_hit": null,
+      "best_bpd": 38,
+      "n_candidates": 1000,
+      "length": 358,
+      "name": "Methaqualone C16H14N2O Structural Representation"
+    },
+    "87": {
+      "first_hit": null,
+      "best_bpd": 4,
+      "n_candidates": 1000,
+      "length": 100,
+      "name": "Cat's Toy 2"
+    },
+    "88": {
+      "first_hit": null,
+      "best_bpd": 1,
+      "n_candidates": 1000,
+      "length": 38,
+      "name": "Zigzag Semicircle"
+    },
+    "89": {
+      "first_hit": null,
+      "best_bpd": 1,
+      "n_candidates": 1000,
+      "length": 97,
+      "name": "Short String 4"
+    },
+    "90": {
+      "first_hit": null,
+      "best_bpd": 21,
+      "n_candidates": 1000,
+      "length": 400,
+      "name": "Gladius"
+    },
+    "91": {
+      "first_hit": 27,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 398,
+      "name": "Thunderbolt"
+    },
+    "92": {
+      "first_hit": null,
+      "best_bpd": 15,
+      "n_candidates": 1000,
+      "length": 103,
+      "name": "Mutated chicken feet"
+    },
+    "93": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 116,
+      "name": "Chicken Tracks"
+    },
+    "94": {
+      "first_hit": null,
+      "best_bpd": 5,
+      "n_candidates": 1000,
+      "length": 389,
+      "name": "Looking Back Again"
+    },
+    "95": {
+      "first_hit": 0,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 82,
+      "name": "Multilooping 6"
+    },
+    "96": {
+      "first_hit": null,
+      "best_bpd": 46,
+      "n_candidates": 1000,
+      "length": 378,
+      "name": "Cesspool"
+    },
+    "97": {
+      "first_hit": 82,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 400,
+      "name": "Hoglafractal"
+    },
+    "98": {
+      "first_hit": 26,
+      "best_bpd": 0,
+      "n_candidates": 1000,
+      "length": 202,
+      "name": "Bullseye"
+    },
+    "99": {
+      "first_hit": null,
+      "best_bpd": 9,
+      "n_candidates": 1000,
+      "length": 370,
+      "name": "Shooting Star"
+    },
+    "100": {
+      "first_hit": null,
+      "best_bpd": 12,
+      "n_candidates": 1000,
+      "length": 381,
+      "name": "Teslagon"
+    }
+  }
+}
